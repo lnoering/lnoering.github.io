@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lnoering.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Leonardo Henrique Noering"
-author_thumbnail: "/assets/images/leo-capa.jpg" # Author avatar
+author_thumbnail: "/assets/images/leo.jpg" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
