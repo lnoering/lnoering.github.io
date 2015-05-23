@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About me
+title: Sobre mim
 permalink: /about/
-banner_image: leo-capa.png
+banner_image: leo-capa.jpg
 banner_image_alt: About me
 ---
 
 Olá, Meu nome é Leonardo Henrique Noering =)
 
-### Contact me
+## Escreva-me
 
 lnoering@gmail.com ou
 
