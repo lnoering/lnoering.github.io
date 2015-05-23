@@ -1,0 +1,59 @@
+# Site settings
+title: Em Memória 
+tagline: Cache
+email: lnoering@gmail.com
+description: > # 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lnoering.github.io" # the base hostname & protocol for your site
+logourl: /assets/images/logo.png # Site logo
+author: "Leonardo Henrique Noering"
+author_thumbnail: "/assets/images/leo-capa.jpg" # Author avatar
+# Theme customization - please change from the defaults!
+theme:
+  # Color for sidebar bar, links, etc
+  highlight_color: "#205081" #205081" # "#272935"
+  # Social media links, leave blank to ignore
+  social: 
+    github: lnoering
+    #twitter: gayanvirajith
+    facebook: lnoering
+    gplus: +LeonardoNoering
+    # dribble: gayanvirajith
+    # pinterest: gayanvirajith
+
+  # Enable share buttons on post footer
+  show_share_buttons: true
+
+  # Show author picure, name and social links on post footer
+  show_author_info: true
+
+  # Disqus comments manager - shortname
+  # disqus_shortname: gaya-webcreate
+
+  # Google Analytics/Webmaster key, leave blank to ignore
+  google_analytics_key: UA-58540554-2
+  google_webmaster_key: 
+
+# Build settings
+markdown: kramdown
+
+# Permalinks
+permalink:        pretty
+
+# Pagination config
+paginate: 5
+
+# Files/Folders to be excluded from generated _site folder
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+# Sass conversion configs
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
