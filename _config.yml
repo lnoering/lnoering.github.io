@@ -43,12 +43,10 @@ social:
   name: Leonardo H. Noering
   email: lnoering@gmail.com             # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-    # - https://twitter.com/lnoering      # change to your twitter homepage
-    - https://github.com/lnoering       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/lnoering
+    - https://instagram.com/lnoering
+    - https://www.facebook.com/lnoering
+    - https://www.linkedin.com/in/lnoering
 
 google_site_verification:               # fill in to your verification string
 
@@ -73,17 +71,17 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: 'https://raw.githubusercontent.com/lnoering/lnoering.github.io/master'
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: '/assets/img/statics/avatar.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
