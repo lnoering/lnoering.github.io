@@ -1,11 +1,11 @@
 ---
-title: About
+title: Welcome
 icon: fas fa-info-circle
 order: 4
 ---
 
 
-## Welcome, I'm Leonardo H. Noering
+## I'm Leonardo H. Noering.
 - I'm a developer since 2008 and my journey of work have some languages like C, C++, Basic, Javascript, PHP, Shell Script and more...
 - I worked with embedded systems using 8051, LPC2138 microchips.
     - I love IOT (Internet of things), and sometimes to have fun I do some thigs to my brother using Arduino like this: [Brooder](https://github.com/lnoering/chocadeira)
