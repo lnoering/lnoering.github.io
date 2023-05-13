@@ -20,6 +20,7 @@
 {% endcapture %}
 
 <!-- return element -->
+{%- if page.enable_read_time -%}
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
   title="{{ words }} {{ site.data.locales[lang].post.words }}">
   <em>{{- read_time -}}{{" "}}{{- site.data.locales[lang].post.read_time.unit -}}</em>
@@ -28,3 +29,4 @@
     {%- unless _prompt_words > 1 -%}{{ " " }}{%- endunless -%}{{ read_prompt }}
   {%- endif -%}
 </span>
+{%- endif -%}

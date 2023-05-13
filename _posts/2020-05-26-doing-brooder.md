@@ -1,10 +1,11 @@
 ---
 title: Doing one Brooder
 author: lnoering
-date: 2023-05-09 12:30:00 +0800
+date: 2020-05-26 12:30:00 +0800
 categories: [Microcontroller, Project]
 tags: [software, arduino, c++]
 render_with_liquid: false
+enable_read_time: false
 ---
 
 ## The Brooder Project

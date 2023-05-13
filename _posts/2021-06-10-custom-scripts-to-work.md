@@ -1,13 +1,14 @@
 ---
 title: Custom Aliases to be faster
 author: lnoering
-date: 2023-05-12 00:34:00 +0800
+date: 2021-06-10 00:34:00 +0800
 categories: [Aliases, Shell Script]
-tags: [shell-script, aliases, bash]
+tags: [shell script, aliases, bash, linux]
 render_with_liquid: false
+enable_read_time: false
 ---
 
-## The Brooder Project
+## Faster with Aliases
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
