@@ -9,9 +9,15 @@ render_with_liquid: false
 
 ## The Brooder Project
 
-<div class="code-container">
-    <iframe src="https://raw.githubusercontent.com/lnoering/chocadeira/master/README.md" height="100%" width="100%" allowfullscreen="" frameborder="0">
-    </iframe>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+    fetch('https://raw.githubusercontent.com/lnoering/chocadeira/master/README.md')
+    .then(response => response.text())
+    .then(data => document.getElementById('git-data').innerHTML = marked.parse("### Plataforma/Platform"+data.split("### Plataforma/Platform")[1]));
+</script>
+<div>
+    <div id="git-data" markdown="1"></div>
 </div>
+
 
 > The code is here: [Brooder](https://github.com/lnoering/chocadeira)
