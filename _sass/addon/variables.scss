@@ -18,7 +18,7 @@ $cursor-width: 2px !default;    /* the cursor width of the selected tab */
 
 /* other framework sizes */
 
-$topbar-height: 3rem !default;
+$topbar-height: 7rem !default;
 
 $search-max-width: 210px !default;
 
@@ -32,3 +32,12 @@ $bottom-min-height: 35rem !default;
 /* syntax highlight */
 
 $code-font-size: 0.85rem !default;
+
+
+/* breadcrumb */
+$breadcrumb-color-gray 			: #34495e;
+$breadcrumb-color-gray-darken 	: #2c3e50;
+$breadcrumb-color 				: rgba(117,117,117,0.35);
+$breadcrumb-color-darken 		: rgba(117,117,117,0.35);
+$breadcrumb-color-hover 	    : rgba(117,117,117,0.9);
+$breadcrumb-color-hover-darken  : rgba(117,117,117,0.9);

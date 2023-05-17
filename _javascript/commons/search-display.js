@@ -39,12 +39,14 @@ $(function() {
         topbarTitle.addClass("unloaded");
         btnSearchTrigger.addClass("unloaded");
         searchWrapper.addClass("d-flex");
-        btnCancel.addClass("loaded");
+        searchWrapper.parent().addClass("w-100");
+        btnCancel.addClass("align-items-center d-flex loaded");
       },
       off() {
-        btnCancel.removeClass("loaded");
+        btnCancel.removeClass("align-items-center d-flex loaded");
         searchWrapper.removeClass("d-flex");
         btnSbTrigger.removeClass("unloaded");
+        searchWrapper.parent().removeClass("w-100");
         topbarTitle.removeClass("unloaded");
         btnSearchTrigger.removeClass("unloaded");
       }

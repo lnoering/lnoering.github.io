@@ -69,6 +69,12 @@ $ docker run -it --rm \
     jekyll serve
 ```
 
+To build...
+```console
+docker exec -it <container_id> npm install -g gulp
+docker exec -it <container_id> gulp
+```
+
 After a while, navigate to the site at <http://localhost:4000>.
 
 ## Documentation
@@ -103,3 +109,11 @@ This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chi
 
 [jb]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
 [cn-donation]: https://cotes.gitee.io/alipay-wechat-donation/
+
+
+docker run -d --rm \
+    --volume="$PWD:/srv/jekyll" \
+    -p 4000:4000 jekyll/jekyll \
+    jekyll serve
+
+
